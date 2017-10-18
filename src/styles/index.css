@@ -1,0 +1,103 @@
+body{
+  text-align: center;
+  padding: 5%;
+  background-color:#1d1f27;
+  color:#fff;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.memeItem{
+  display: inline-block;
+  position: relative;
+  padding: 0;
+  height: 200px;
+  width: 200px;
+  margin:15px;
+  cursor: pointer;
+}
+
+.memeImg{
+  border-radius: 6px;
+  border: 4px solid #fff;
+  width: 200px;
+  height:200px;
+  overflow: hidden;
+  object-fit: cover;
+  overflow: hidden;
+  filter:brightness(100%);
+  animation-name: darken;
+  animation-duration: 1s;
+}
+
+
+
+.memeText{
+  width: 200px;
+  padding: 0 10px;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  bottom: 8px;
+}
+
+.memeImg:hover{
+  filter: brightness(50%);
+}
+
+.memeBtn{
+  font-size: 20px;
+  padding:15px 20px;
+}
+
+.noText{
+  display: none;
+}
+
+
+.MyMeme{
+  display: inline-block;
+  height: 250px;
+  object-fit:contain;
+  border-radius: 6px;
+  margin: 10px;
+}
+
+.myMemes{
+  text-align: center;
+  display: block;
+
+  border-radius: 10px;
+  max-width: 960px;
+  margin:10px auto 20px;
+}
+
+.noCustomMeme{
+  display: none;
+}
+
+.myForm{
+  max-width: 70%;
+  margin: auto;
+}
+
+.imgBox{
+  display: inline-block;
+  position:relative;
+}
+
+.imgBox span{
+  position: absolute;
+  right:20px;
+  top:20px;
+  font-size: 20px;
+  color:#222;
+}
+
+.imgBox span:hover{
+  cursor: pointer;
+}
+
+.imgBox span:active{
+  color:#f4f4f4;
+  font-size: 25px;
+}
